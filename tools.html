@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tools Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assetes/style/sytle.css">
+    <link rel="stylesheet" href="./assetes/style/commun.css">
+    <link rel="stylesheet" href="./assetes/style/media.css">
+    <style>
+        header {
+            position: sticky;
+            top: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tool-bg-img bg-norepet">
+        <div class="bg-black-shad">
+            <div class="self-contianer ff-manrope">
+                <header>
+                    <div class="d-flex justify-content-between align-items-center py-4">
+                        <a href="#" class="max-w-172">
+                            <img src="./assetes/img/svg/logo.svg" alt="logo">
+                        </a>
+                        <ul class="m-0 p-0 ff-manrope list-style-none d-lg-flex d-none gap-xl-5 gap-4">
+                            <li>
+                                <a href="./index.html"
+                                    class="text-gray fs-16 fw-semibold text-decoration-none transition text-white-hvr">Home</a>
+                            </li>
+                            <li>
+                                <a href="./trade.html"
+                                    class="text-gray fs-16 fw-semibold text-decoration-none transition text-white-hvr">Trade</a>
+                            </li>
+                            <li>
+                                <a href="./tools.html"
+                                    class="text-gray fs-16 fw-semibold text-decoration-none transition text-white-hvr active-page">Tools</a>
+                            </li>
+                            <li>
+                                <a href="./partner.html"
+                                    class="text-gray fs-16 fw-semibold text-decoration-none transition text-white-hvr">Partner</a>
+                            </li>
+                            <li>
+                                <a href="./about-us.html"
+                                    class="text-gray fs-16 fw-semibold text-decoration-none transition text-white-hvr">About
+                                    Us</a>
+                            </li>
+                        </ul>
+                        <div class="d-flex align-items-center g-10">
+                            <div class="d-md-flex d-none align-items-center gap-xl-3 gap-2">
+                                <div>
+                                    <select class="p-12 d-flex g-12 rounded-3">
+                                        <option value="Hindi" class="fw-medium">
+                                            <div>
+                                                <img src="./assetes/img/svg/logo.svg" alt="img">
+                                            </div>
+                                            <span>Hindi</span>
+                                        </option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <a href="#"
+                                        class="d-flex align-items-center g-10 text-decoration-none text-blue-4580ff p-14-24 bg-white rounded fw-semibold bg-transparent-hvr transition">
+                                        <span>Get Started</span>
+                                        <div>
+                                            <svg xmlns=" http://www.w3.org/2000/svg" width="20" height="20"
+                                                viewBox="0 0 20 20" fill="none" class="transition">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M2.31178 10.401C2.55865 10.6482 2.5584 11.0486 2.31123 11.2955L2.18153 11.4251C2.07074 11.5357 2.07074 11.7148 2.18153 11.8255C2.29275 11.9365 2.47338 11.9365 2.5846 11.8255L4.01137 10.4004C4.25854 10.1536 4.65903 10.1538 4.9059 10.401C5.15277 10.6482 5.15253 11.0486 4.90536 11.2955L3.47859 12.7205C2.87346 13.3249 1.89267 13.3249 1.28754 12.7205C0.681985 12.1157 0.681985 11.1348 1.28754 10.53L1.41725 10.4004C1.66442 10.1536 2.06491 10.1538 2.31178 10.401ZM6.40558 11.2412C6.6526 11.4882 6.6526 11.8887 6.40558 12.1357L4.62024 13.9211C4.37322 14.1681 3.97273 14.1681 3.72571 13.9211C3.47869 13.674 3.47869 13.2735 3.72571 13.0265L5.51105 11.2412C5.75807 10.9942 6.15856 10.9942 6.40558 11.2412ZM8.74654 13.5793C8.99356 13.8263 8.99356 14.2268 8.74654 14.4738L6.97341 16.2469C6.72639 16.4939 6.3259 16.4939 6.07888 16.2469C5.83186 15.9999 5.83186 15.5994 6.07888 15.3524L7.85201 13.5793C8.09903 13.3323 8.49953 13.3323 8.74654 13.5793ZM6.08103 13.9131C6.32529 14.1629 6.32083 14.5634 6.07108 14.8076L4.62927 16.2177C4.37952 16.4619 3.97905 16.4575 3.73479 16.2077C3.49054 15.958 3.495 15.5575 3.74475 15.3132L5.18656 13.9032C5.43631 13.6589 5.83678 13.6634 6.08103 13.9131ZM9.56764 15.0982C9.8145 15.3454 9.81426 15.7459 9.56709 15.9927L8.14033 17.4177C8.02953 17.5284 8.02953 17.7075 8.14033 17.8181C8.25154 17.9292 8.43218 17.9292 8.5434 17.8181L8.6731 17.6886C8.92027 17.4417 9.32077 17.442 9.56764 17.6891C9.8145 17.9363 9.81426 18.3368 9.56709 18.5837L9.43739 18.7132C8.83226 19.3176 7.85147 19.3176 7.24634 18.7132C6.64078 18.1084 6.64078 17.1275 7.24634 16.5227L8.6731 15.0977C8.92027 14.8508 9.32077 14.851 9.56764 15.0982Z"
+                                                    fill="#4580FF" />
+                                                <path
+                                                    d="M9.03865 4.50743L7.21556 6.32503C6.88046 6.65911 6.57306 6.96557 6.33031 7.2426C6.17441 7.42051 6.01862 7.61523 5.88666 7.83039L5.86889 7.81267C5.83518 7.77906 5.8183 7.76223 5.80137 7.7458C5.48449 7.43835 5.11176 7.1939 4.70311 7.02553C4.68127 7.01654 4.65911 7.00775 4.61478 6.99019L4.34334 6.88264C3.97562 6.73693 3.87761 6.26355 4.15742 5.98459C4.96046 5.18399 5.92462 4.22276 6.38993 4.0297C6.80029 3.85944 7.24359 3.80279 7.67113 3.86597C8.06287 3.92386 8.43345 4.12508 9.03865 4.50743Z"
+                                                    fill="#4580FF" />
+                                                <path
+                                                    d="M12.1516 14.0775C12.2985 14.2266 12.396 14.332 12.4842 14.4445C12.6006 14.593 12.7047 14.7507 12.7954 14.9161C12.8975 15.1022 12.9768 15.3011 13.1353 15.6988C13.2644 16.0226 13.6931 16.1082 13.9422 15.8599L14.0024 15.7998C14.8055 14.9992 15.7696 14.0379 15.9632 13.574C16.134 13.1649 16.1908 12.7229 16.1275 12.2967C16.0694 11.9062 15.8676 11.5367 15.4842 10.9335L13.655 12.7572C13.3123 13.0988 12.9981 13.4121 12.7139 13.6576C12.5436 13.8046 12.3573 13.9517 12.1516 14.0775Z"
+                                                    fill="#4580FF" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M12.9186 11.9727L17.11 7.79391C17.7136 7.1921 18.0154 6.8912 18.1744 6.50856C18.3334 6.12592 18.3334 5.70038 18.3334 4.84931V4.44272C18.3334 3.134 18.3334 2.47964 17.9256 2.07307C17.5178 1.6665 16.8614 1.6665 15.5488 1.6665H15.141C14.2873 1.6665 13.8605 1.6665 13.4767 1.825C13.0929 1.98349 12.7911 2.2844 12.1875 2.8862L7.99606 7.06498C7.29073 7.76819 6.85338 8.20422 6.68402 8.62536C6.63051 8.75842 6.60376 8.89001 6.60376 9.02806C6.60376 9.60303 7.06786 10.0657 7.99606 10.9911L8.12081 11.1155L9.58215 9.6324C9.79055 9.42089 10.131 9.41837 10.3425 9.62677C10.554 9.83517 10.5565 10.1756 10.3481 10.3871L8.88231 11.8747L8.98057 11.9727C9.90877 12.8981 10.3729 13.3608 10.9496 13.3608C11.077 13.3608 11.1989 13.3382 11.3216 13.293C11.754 13.1337 12.1955 12.6936 12.9186 11.9727ZM14.8877 7.06528C14.344 7.60737 13.4624 7.60737 12.9187 7.06528C12.375 6.52319 12.375 5.64429 12.9187 5.1022C13.4624 4.56011 14.344 4.56011 14.8877 5.1022C15.4314 5.64429 15.4314 6.52319 14.8877 7.06528Z"
+                                                    fill="#4580FF" />
+                                            </svg>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="d-lg-none d-block">
+                                <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                                    aria-controls="offcanvasExample">
+                                    <img src="./assetes/img/svg/india.svg" alt="">
+                                </a>
+
+                                <div class="offcanvas offcanvas-end bg-blue-4580ff" tabindex="-1" id="offcanvasExample"
+                                    aria-labelledby="offcanvasExampleLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                                            <img src="./assetes/img/svg/logo.svg" alt="logo">
+                                        </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <ul
+                                            class="m-0 p-0 ff-manrope list-style-none d-flex flex-column gap-xl-5 gap-4">
+                                            <li>
+                                                <a href="./index.html"
+                                                    class="text-gray fs-16 fw-semibold text-decoration-none transition text-white-hvr">Home</a>
+                                            </li>
+                                            <li>
+                                                <a href="./trade.html"
+                                                    class="text-gray fs-16 fw-semibold text-decoration-none transition text-white-hvr">Trade</a>
+                                            </li>
+                                            <li>
+                                                <a href="./tools.html"
+                                                    class="text-gray fs-16 fw-semibold text-decoration-none transition text-white-hvr active-page">Tools</a>
+                                            </li>
+                                            <li>
+                                                <a href="./partner.html"
+                                                    class="text-gray fs-16 fw-semibold text-decoration-none transition text-white-hvr">Partner</a>
+                                            </li>
+                                            <li>
+                                                <a href="./about-us.html"
+                                                    class="text-gray fs-16 fw-semibold text-decoration-none transition text-white-hvr">About
+                                                    Us</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+                <!-- hero -->
+                <section>
+                    <div
+                        class="text-white d-flex gap-md-4 gap-3 flex-column align-items-center p-tb-202-277 hero-para max-w-823 m-auto">
+                        <h1 class=" text-center m-0 fs-60 fw-bold line-height-120">Trade up with Fosding FX on
+                            Trading Central</h1>
+                        <p class="text-center m-0 fs-20 fw-medium line-height-180">Empowering Investment
+                            Analytics
+                            for Everyone. Trading Central's acclaimed analytical solutions condense vast,
+                            unstructured data into concise insights and striking visuals that boosts involvements,
+                            assurance, and initiative.</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- tab section -->
+    <section>
+        <div class="bg-black-040F2A">
+            <nav class="self-contianer">
+                <div class="nav nav-tabs justify-content-between p-lr-200 lg-p-0" id="nav-tab" role="tablist">
+                    <button class="nav-link active fs-18 fw-black line-height-120 p-42-50 md-p-30-20" id="top-storis"
+                        data-bs-toggle="tab" data-bs-target="#top-storis-tab" type="button" role="tab"
+                        aria-controls="top-storis-tab" aria-selected="true">Top stories</button>
+                    <button class="nav-link fs-18 fw-bolder line-height-120 p-42-50 md-p-30-20" id="economic-cla"
+                        data-bs-toggle="tab" data-bs-target="#economic-tab" type="button" role="tab"
+                        aria-controls="economic-tab" aria-selected="false">Economic
+                        Calendar</button>
+                </div>
+            </nav>
+        </div>
+        <div class="self-contianer mt-143 lg-mt-80 md-mt-45">
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="top-storis-tab" role="tabpanel" aria-labelledby="top-storis"
+                    tabindex="0">
+                    <div class="pb-250 xl-pb-100 lg-pb-50 sm-p-0">
+                        <h2 class="m-0 fs-48 fw-bold line-height-140">Top stories</h2>
+                        <div class="mt-md-5 mt-4">
+                            <img src="./assetes/img/png/top-storis.png" alt="img" width="100%">
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="economic-tab" role="tabpanel" aria-labelledby="economic-cla"
+                    tabindex="0">
+                    <div>
+                        <h2 class="m-0 fs-48 fw-bold line-height-140">Economic Calendar</h2>
+                        <div class="mt-md-5 mt-4">
+                            <img src="./assetes/img/png/economic-cal-img.png" alt="img" width="100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- start trading width us -->
+    <section>
+        <div class="self-contianer mt-160 lg-mt-80 md-mt-45">
+            <div
+                class="bg-blue-4580ff d-flex flex-column align-items-center gap-lg-4 gap-md-3 gap-2 p-111-20 border-radius-28 xl-p-70-20 md-p-40-16">
+                <h2 class="m-0 text-center fs-48 fw-bold line-height-140 text-white">Start Trading with Us</h2>
+                <p class="m-0 text-gray fs-20 line-height-160 text-center max-w-733">Explore these features and tools to
+                    enhance
+                    your trading
+                    experience.
+                    Whether
+                    you're new
+                    to
+                    trading or
+                    an experienced
+                    trader, our platform offers the resources you need to succeed.</p>
+                <div>
+                    <a href="https://telegram.org/" target="_blank"
+                        class="bg-white text-blue-4580ff text-decoration-none p-18-32 rounded-pill d-flex align-items-center g-10 fs-18 fw-medium md-p-12-15 width-us">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" viewBox="0 0 25 26"
+                                fill="none" class="transition">
+                                <g clip-path="url(#clip0_28_200)">
+                                    <path
+                                        d="M16.5875 18.7339L18.6384 9.06606C18.8197 8.21519 18.3313 7.88035 17.7732 8.08928L5.71965 12.7348C4.89641 13.0554 4.91072 13.5161 5.58035 13.725L8.6634 14.6875L15.8205 10.1813C16.1553 9.95803 16.4625 10.0839 16.2116 10.3072L10.4223 15.5384L10.1991 18.7197C10.5197 18.7197 10.6598 18.5803 10.8268 18.4125L12.333 16.9616L15.458 19.2634C16.0303 19.5839 16.4348 19.417 16.5884 18.733L16.5875 18.7339ZM25 13C25 19.9053 19.4053 25.5 12.5 25.5C5.59465 25.5 0 19.9053 0 13C0 6.09465 5.59465 0.5 12.5 0.5C19.4053 0.5 25 6.09465 25 13Z"
+                                        fill="#4580FF" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_28_200">
+                                        <rect width="25" height="25" fill="white" transform="translate(0 0.5)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </span>
+                        <span>Join Telegram Channel</span>
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                                fill="none" class="transition">
+                                <path
+                                    d="M16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32Z"
+                                    fill="#4580FF" fill-opacity="0.08" />
+                                <path d="M20.2427 20.2426V11.7574H11.7574" fill="#4580FF" fill-opacity="0.08" />
+                                <path d="M20.2427 20.2426V11.7574H11.7574" stroke="#4580FF" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M11.7574 20.2426L20.2427 11.7574" stroke="#4580FF" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- foooter -->
+    <footer class="bg-black-040F2A pt-md-4 pt-0 pb-lg-0 pb-4 mt-100 lg-mt-80 md-mt-45">
+        <div class="self-contianer text-gray">
+            <div>
+                <ul
+                    class="m-0 p-0 py-xl-5 py-lg-4 py-3 list-style-none d-flex g-12 flex-md-nowrap flex-wrap align-items-center justify-content-between border-tb-1gray">
+                    <li>
+                        <a href="#"
+                            class="text-decoration-none text-gray fs-22 line-height-160 text-white-hvr transition">Terms
+                            & Conditions</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="text-decoration-none text-gray fs-22 line-height-160 text-white-hvr transition">Privacy
+                            Policy</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="text-decoration-none text-gray fs-22 line-height-160 text-white-hvr transition">Risk
+                            Disclosure Notice</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="text-decoration-none text-gray fs-22 line-height-160 text-white-hvr transition">Disclaimer</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="text-decoration-none text-gray fs-22 line-height-160 text-white-hvr transition">Order
+                            Execution Policy</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="text-decoration-none text-gray fs-22 line-height-160 text-white-hvr transition">Complaints
+                            Handling Policy</a>
+                    </li>
+                </ul>
+                <div class="d-flex flex-lg-row gap-3 flex-column align-items-stretch align-items-center">
+                    <div
+                        class="d-flex flex-column align-items-lg-start align-items-center gap-2 justify-content-between p-42-60-50-0 lg-p-0 border-right lg-border-none">
+                        <a href="#">
+                            <img src="./assetes/img/svg/footer-logo.svg" alt="logo">
+                        </a>
+                        <p class="text-gray m-0 fs-16 line-height-160 max-w-172 text-lg-start text-center">© 2024
+                            FOSDINGFX LTD All rights
+                            reserved.</p>
+                    </div>
+                    <div class="p-42-0-50-60 lg-p-0">
+                        <ul class="list-style-none m-0 p-0 d-flex flex-column gap-3">
+                            <li>FOSDINGFX LTD is the trading name of FOSDING Ltd, which is regulated by the Money
+                                Services Business (MSB) with
+                                Securities Dealer’s license number 31000279609829.</li>
+                            <li>Risk Warning: Trading Forex and CFDs carries a high level of risk to your capital and
+                                you should only trade with money
+                                you can afford to lose. Trading Forex and CFDs may not be suitable for all investors, so
+                                please ensure that you fully
+                                understand the risks involved and seek independent advice if necessary. Please read and
+                                ensure you fully understand our
+                                Risk Disclosure.</li>
+                            <li>Restricted Countries: FOSDINGFX Ltd does not provide services for residents of certain
+                                countries such as the United
+                                States of America, Canada, Brazil, Israel, New Zealand, Iran and North Korea (Democratic
+                                People's Republic of Korea) or
+                                a country where such distribution or use would be contrary to local law or regulation.
+                            </li>
+                            <li>You must be 18 years old, or of legal age as determined in your country. Upon
+                                registering an account with FOSDINGFX Ltd,
+                                you acknowledge that you are registering at your own free will, without solicitation on
+                                behalf of FOSDINGFX Ltd.
+                            </li>
+                            <li>FOSDINGFX Ltd does not direct its website and services to any individual in any country
+                                in which the use of its website
+                                and services are prohibited by local laws or regulations. When accessing this website
+                                from a country in which its use
+                                may or may not be prohibited, it is the user's responsibility to ensure that any use of
+                                the website or services adheres
+                                to local laws or regulations. FOSDINGFX Ltd does not affirm that the information on its
+                                website is suitable for all
+                                jurisdictions.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</html>
