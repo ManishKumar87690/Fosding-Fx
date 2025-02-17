@@ -4,11 +4,17 @@
     --fs-20: 20px;
     --fs-22: 22px;
     --fs-24: 24px;
+    --fs-26: 26px;
     --fs-28: 28px;
+    --fs-30: 30px;
     --fs-32: 32px;
+    --fs-36: 36px;
+    --fs-38: 38px;
     --fs-40: 40px;
     --fs-48: 48px;
     --fs-60: 60px;
+    --fs-80: 80px;
+    --fs-200: 200px;
 }
 
 .fs-16 {
@@ -31,12 +37,28 @@
     font-size: var(--fs-24);
 }
 
+.fs-26 {
+    font-size: var(--fs-26);
+}
+
 .fs-28 {
     font-size: var(--fs-28);
 }
 
+.fs-30 {
+    font-size: var(--fs-30);
+}
+
 .fs-32 {
     font-size: var(--fs-32);
+}
+
+.fs-36 {
+    font-size: var(--fs-36);
+}
+
+.fs-38 {
+    font-size: var(--fs-38);
 }
 
 .fs-40 {
@@ -51,6 +73,14 @@
     font-size: var(--fs-60)
 }
 
+.fs-80 {
+    font-size: var(--fs-80)
+}
+
+.fs-200 {
+    font-size: var(--fs-200);
+}
+
 
 @media (max-width:1600px) {}
 
@@ -63,8 +93,10 @@
 @media (max-width:1200px) {
     :root {
         --fs-60: 50px;
+        --fs-80: 60px;
         --fs-40: 35px;
         --fs-48: 40px;
+        --fs-200: 120px;
     }
 }
 
@@ -72,11 +104,17 @@
     :root {
         --fs-22: 12px;
         --fs-24: 20px;
+        --fs-26: 22px;
         --fs-28: 24px;
+        --fs-30: 28px;
         --fs-32: 26px;
+        --fs-36: 28px;
+        --fs-38: 32px;
+        --fs-38: 30px;
         --fs-40: 30px;
         --fs-48: 32px;
         --fs-60: 40px;
+        --fs-80: 50px;
     }
 
 }
@@ -87,9 +125,14 @@
         --fs-20: 16px;
         --fs-24: 18px;
         --fs-28: 18px;
+        --fs-30: 22px;
         --fs-32: 18px;
+        --fs-36: 24px;
+        --fs-38: 24px;
         --fs-48: 28px;
         --fs-60: 36px;
+        --fs-80: 40px;
+        --fs-200: 70px;
     }
 }
 
@@ -97,6 +140,7 @@
     :root {
         --fs-20: 14px;
         --fs-24: 14px;
+        --fs-26: 16px;
         --fs-28: 16px;
         --fs-40: 24px;
         --fs-48: 24px;
